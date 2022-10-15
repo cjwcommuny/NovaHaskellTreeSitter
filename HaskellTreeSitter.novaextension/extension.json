@@ -1,0 +1,8 @@
+{
+    "identifier": "cjwcommuny.HaskellTreeSitter",
+    "name": "Haskell Tree Sitter",
+    "organization": "cjwcommuny",
+    "description": "Haskell Tree Sitter extension for Nova",
+    "version": "1.0",
+    "categories": ["languages"]
+}

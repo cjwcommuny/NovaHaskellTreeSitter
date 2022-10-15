@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="haskell">
+    <meta>
+        <name>Haskell</name>
+        <type>compiled</type>
+        <preferred-file-extension>hs</preferred-file-extension>
+    </meta>
+    
+    <detectors>
+        <extension priority="1.0">hs</extension>
+    </detectors>
+    
+    <indentation>
+        <increase>
+            <expression>(\{[^}\"']*$)|(\[[^\]\"']*$)|(\([^)\"']*$)|((do|of|where)\s*$)</expression>
+        </increase>
+        <decrease>
+            <expression>(^\s*(end|done|with|in|else)\b.*:\s*$)|(^\s*(\s*/\*.*\*/\s*)*[\}\]\)\\])</expression>
+        </decrease>
+    </indentation>
+    
+    <comments>
+        <single>
+            <expression>--</expression>
+        </single>
+        <multiline>
+            <starts-with>
+                <expression>{-</expression>
+            </starts-with>
+            <ends-with>
+                <expression>-}</expression>
+            </ends-with>
+        </multiline>
+    </comments>
+    
+    <tree-sitter language="haskell">
+        <highlights path="highlights.scm" />
+        <folds path="folds.scm" />
+        <symbols path="symbols.scm" />
+    </tree-sitter>
+</syntax>
