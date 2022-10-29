@@ -1,5 +1,9 @@
-# Haskell Tree Sitter Extension for Nova
+# Haskell Syntax Highlighting Extension for Nova
 
-This extension utilizes the Tree Sitter plugin system introduced in Nova 10 and brings accurate syntax highlighting.
+ Nova extension for syntax highlighting and code folding of **Haskell**.
+
+This extension utilizes the Tree Sitter engine introduced in **Nova 10** and brings accurate syntax highlighting.
 
 This extension is based on [tree-sitter-haskell](https://github.com/tree-sitter/tree-sitter-haskell).
+
+![screenshot](Images/extension/screenshot.png)
