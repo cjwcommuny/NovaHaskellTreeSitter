@@ -31,3 +31,7 @@
 ((type_alias (type) @name) @subtree
   (#set! role type)
 )
+
+((newtype name: (type) @name) @subtree
+  (#set! role type)
+)
