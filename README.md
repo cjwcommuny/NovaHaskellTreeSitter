@@ -1,1 +1,1 @@
-# Haskell Tree Sitter Extension for Nova
+HaskellTreeSitter.novaextension/README.md

@@ -1,0 +1,1 @@
+HaskellTreeSitter.novaextension/CHANGELOG.md
