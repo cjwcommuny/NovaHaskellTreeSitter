@@ -2,7 +2,12 @@
     "identifier": "cjwcommuny.HaskellTreeSitter",
     "name": "Haskell Tree Sitter",
     "organization": "cjwcommuny",
-    "description": "Haskell Tree Sitter extension for Nova",
+    "description": "Haskell syntax highlighting extension for Nova",
     "version": "1.0",
-    "categories": ["languages"]
+    "categories": ["languages"],
+    
+    "repository": "https://github.com/cjwcommuny/NovaHaskellTreeSitter",
+    "bugs": "https://github.com/cjwcommuny/NovaHaskellTreeSitter/issues",
+    
+    "min_runtime": "10.0"
 }
