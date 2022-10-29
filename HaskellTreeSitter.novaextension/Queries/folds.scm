@@ -46,6 +46,12 @@
     (#set! role block)
 )
 
+((exports
+    "(" @start
+    ")" @end)
+    (#set! role block)
+)
+
 ((exp_record 
     "{" @start
     "}" @end)
